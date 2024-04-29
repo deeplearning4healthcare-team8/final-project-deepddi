@@ -5,7 +5,7 @@ SHELL=/bin/bash
 PYTHON_VERSION := $(shell cat .python-version)
 
 # .PHONY tells make that these targets are not actual files
-.PHONY: init check-pyenv check-python
+.PHONY: init check-pyenv check-python train
 
 # 'init' target: Handles setting up the Python environment using pyenv
 init: check-pyenv check-python
@@ -35,3 +35,6 @@ check-python:
 	else \
 		echo "Correct Python version $(PYTHON_VERSION) is active."; \
 	fi
+
+train:
+	pipenv run python scripts/train.py
