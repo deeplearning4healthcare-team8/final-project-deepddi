@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+torch-scatter = "*"
+torch-cluster = "*"
+chemicalx = {git = "git+https://github.com/lucag2/chemicalx#egg=chemicalx"}
+torchinfo = "*"
+plotly = "*"
+torchsummary = "*"
+ipykernel = "*"
+gdown = "*"
+nbformat = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
