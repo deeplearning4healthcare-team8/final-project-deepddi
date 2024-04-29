@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2539459d5fd253f59e3e15de9d881c365f8c2eead3fd8b9b87e899a1840d6bf7"
+            "sha256": "2cec50d0710f690d4cfad400ed26d8f089403101df5a58d259b6c252954d10aa"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -144,7 +144,7 @@
             "version": "==3.3.2"
         },
         "chemicalx": {
-            "git": "git+https://github.com/lucag2/chemicalx#egg=chemicalx",
+            "git": "git+https://github.com/lucag2/chemicalx.git",
             "ref": "9a2a4900d58e5121cdcc62c7487fe507a136b937"
         },
         "class-resolver": {

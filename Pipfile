@@ -9,7 +9,7 @@ torchvision = "*"
 torchaudio = "*"
 torch-scatter = "*"
 torch-cluster = "*"
-chemicalx = {git = "git+https://github.com/lucag2/chemicalx#egg=chemicalx"}
+chemicalx = {git = "git+https://github.com/lucag2/chemicalx.git"}
 torchinfo = "*"
 plotly = "*"
 torchsummary = "*"
