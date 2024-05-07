@@ -35,6 +35,3 @@ check-python:
 	else \
 		echo "Correct Python version $(PYTHON_VERSION) is active."; \
 	fi
-
-train:
-	pipenv run python scripts/train.py
